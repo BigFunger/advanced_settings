@@ -1,0 +1,44 @@
+{
+  "author": "Jim Unger",
+  "name": "advanced_settings",
+  "license": "Apache-2.0",
+  "description": "none",
+  "scripts": {
+    "start": "plugin-helpers start",
+    "build": "plugin-helpers build"
+  },
+  "dependencies": {
+    "angular-sanitize": "1.4.9",
+    "axios": "^0.16.2",
+    "boom": "^5.2.0",
+    "duration-parser": "1.0.2",
+    "elasticsearch": "11.0.1",
+    "gaussian": "1.1.0",
+    "joi": "6.10.1",
+    "jquery": "2.1.4",
+    "lodash": "3.10.1",
+    "moment": "2.11.2",
+    "node-uuid": "1.4.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-redux": "^4.0.8",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-thunk": "^2.2.0",
+    "redux-thunks": "^0.3.0"
+  },
+  "kibana": {
+    "version": "kibana"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigFunger/advanced_settings.git"
+  },
+  "devDependencies": {
+    "@elastic/plugin-helpers": "~6.0.2",
+    "expect.js": "0.3.1"
+  }
+}
